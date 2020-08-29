@@ -7,9 +7,14 @@ export default function Recording() {
     return (
       <View >
          
-         <Text>Asad</Text>
+         <View styles={styles.card}>
+         
+          <Text>sdsf</Text>
       
-        <StatusBar style="auto" />
+        
+      </View>
+      
+        
       </View>
     );
   }
@@ -21,4 +26,10 @@ export default function Recording() {
       alignItems: 'center',
       justifyContent: 'center',
     },
+
+    card: {
+      borderWidth:3,
+      borderRadius:4,
+      borderColor:'red',
+    }
   });
