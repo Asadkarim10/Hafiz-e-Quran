@@ -8,6 +8,7 @@ import { StyleSheet, Text, View } from 'react-native';
  //import Filename from './assets/components/filename';
  //import Delete from './assets/components/delete';
 //import Hafiz from './assets/components/hafiz';
+import Drawer from './assets/components/drawer';
 //import Cards from './assets/components/cards'
 //import Mcards from './assets/components/mcards'
 
@@ -17,7 +18,7 @@ export default function App() {
   return (
     <View >
        
-       <Recording />
+       <Drawer />
     
       <StatusBar style="auto" />
     </View>
