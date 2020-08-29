@@ -56,18 +56,19 @@ const styles = StyleSheet.create({
    },
 
    text3:{
-    height: 40,
+    height: 50,
     borderTopColor:'black',
-    borderBottomWidth :1,
+    borderTopWidth :1,
     paddingBottom:5,
     paddingTop:6,
-    fontSize:18,
+    fontSize:22,
    },
    part1 :{
     marginLeft:30,
     marginTop:20,
     marginRight:30,
 
+    borderBottomWidth :1,
    },
 
 
@@ -75,6 +76,6 @@ const styles = StyleSheet.create({
        marginRight:30,
        marginBottom:20,
        paddingTop: 7,
-       
+         
    }
   });
